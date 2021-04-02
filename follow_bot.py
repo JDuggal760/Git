@@ -23,7 +23,7 @@ login_form = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@valu
 login_form.click()
 
 # Go to the followers tab
-nameOfUser = "" # Input github username here
+nameOfUser = "torvalds" # Input github username here
 
 driver.get("https://github.com/{}?tab=followers".format(nameOfUser))
 time.sleep(3)
