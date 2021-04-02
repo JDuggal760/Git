@@ -15,8 +15,8 @@ username = wait.until(EC.presence_of_element_located((By.ID, "login_field")))
 password = wait.until(EC.presence_of_element_located((By.ID, "password")))
 
 # password and username need to go into these values
-username.send_keys("username")
-password.send_keys("password")
+username.send_keys("JDuggal760")
+password.send_keys("fmeh0462")
 
 # Clicking the sign in button
 login_form = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@value='Sign in']")))
